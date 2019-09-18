@@ -13,9 +13,9 @@ if [ -d $REVISION ] ; then
   exit
 fi
 
-ZIP_URL="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F$REVISION%2Fchrome-linux.zip?alt=media"
+ZIP_URL="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F$REVISION%2Fheadless-shell.zip?alt=media"
 
-ZIP_FILE="${REVISION}-chrome-linux.zip"
+ZIP_FILE="${REVISION}-headless-shell.zip"
 
 echo "fetching $ZIP_URL"
 
